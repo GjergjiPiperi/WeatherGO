@@ -19,7 +19,6 @@ const WeatherSearch = forwardRef(function WeatherSearch(props, ref) {
       >
         Search
       </button>
-      <p>THis is my weather app</p>
     </div>
   );
 });
