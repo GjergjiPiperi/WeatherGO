@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 
 const WeatherSearch = forwardRef(function WeatherSearch(props, ref) {
   return (
-    <div className="flex items-center max-w-md mx-auto mt-10 overflow-hidden rounded-lg shadow-lg font-poppins bg-gradient-to-r from-blue-400 to-cyan-500">
+    <div className="flex items-center w-full max-w-xl mx-auto mt-10 overflow-hidden rounded-lg shadow-lg font-poppins bg-gradient-to-r from-blue-400 to-cyan-500">
       <input
         ref={ref}
         type="text"
